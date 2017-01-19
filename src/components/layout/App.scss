@@ -1,0 +1,65 @@
+// $badass: #BADA55;
+// .App {
+//   text-align: center;
+// }
+
+// .App-logo {
+//   animation: App-logo-spin infinite 20s linear;
+//   height: 80px;
+// }
+
+// .App-header {
+//   background-color: #222;
+//   height: 150px;
+//   padding: 20px;
+//   color: $badass;
+// }
+
+// .App-intro {
+//   font-size: large;
+// }
+
+// @keyframes App-logo-spin {
+//   from { transform: rotate(0deg); }
+//   to { transform: rotate(360deg); }
+// }
+
+$dark-green: #006400;
+$white: #fff;
+
+.app-container{
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  
+}
+.app-container .header-row{
+  background-color: $dark-green;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.app-container .header-row h1{
+  font-size: 30px;
+  color: $white;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-bottom: 5px;
+  
+  
+  .fa.fa-free-code-camp{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.app-container .header-row h4{
+  color: $white;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.app-container .header-row .show-leader-btn{
+  margin-bottom: 5px;
+  width: 250px;
+}
